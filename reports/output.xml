@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-06-12T19:44:28.677383" rpa="false" schemaversion="5">
+<suite id="s1" name="Api Loja" source="C:\Users\petronio.bernardino\Desktop\TheTestTribe Porto\TestTribePorto\tests_api\api_loja.robot">
+<test id="s1-t1" name="Acesso a API" line="5">
+<kw name="GET" owner="RequestsLibrary">
+<msg time="2024-06-12T19:44:30.394293" level="INFO">GET Request : url=https://serverest.dev/usuarios 
+ path_url=/usuarios 
+ headers={'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} 
+ body=None 
+ </msg>
+<msg time="2024-06-12T19:44:30.394293" level="INFO">GET Response : url=https://serverest.dev/usuarios 
+ status=200, reason=OK 
+ headers={'access-control-allow-origin': '*', 'x-dns-prefetch-control': 'off', 'x-frame-options': 'SAMEORIGIN', 'strict-transport-security': 'max-age=15552000; includeSubDomains', 'x-download-options': 'noopen', 'x-content-type-options': 'nosniff', 'x-xss-protection': '1; mode=block', 'content-type': 'application/json; charset=utf-8', 'X-Cloud-Trace-Context': 'ee5d1ec103aa86970e5ff03374f973db;o=1', 'Date': 'Wed, 12 Jun 2024 18:44:29 GMT', 'Server': 'Google Frontend', 'Content-Length': '108972'} 
+ body={
+    "quantidade": 486,
+    "usuarios": [
+        {
+            "nome": "Kent Littel",
+            "email": "Eula_Little4@hotmail.com",
+            "password": "4sYBTGYob8b0c17",
+            "administrador": "false",
+            "_id": "00xjcWjZyIPGJD6h"
+        },
+        {
+            "nome": "Lucas Emanoel",
+            "email": "ethompson@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "0GWLSCPX3jlvhcd3"
+        },
+        {
+            "nome": "Tom Marquardt",
+            "email": "Ralph_Abshire75@yahoo.com",
+            "password": "RDfcKj_WiaeCp_o",
+            "administrador": "false",
+            "_id": "0eNVlrkJWhHA1UDn"
+        },
+        {
+            "nome": "Colleen Doyle",
+            "email": "Zoe_Hickle@hotmail.com",
+            "password": "I7EMK8XnlrFy46d",
+            "administrador": "true",
+            "_id": "0lG5nfmkOo6xsLxx"
+        },
+        {
+            "nome": "Alyssa Wiza",
+            "email": "Madelyn.Kiehn88@gmail.com",
+            "password": "Gsv7zjRygykFmSV",
+            "administrador": "true",
+            "_id": "0nUKOLty9v7dmIJN"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Sheldon Reilly-Conn",
+            "email": "Gianni_Buckridge-Corwin75@hotmail.com",
+            "password": "DVa7dav2SRyLFYH",
+            "administrador": "true",
+            "_id": "0yf3u3a4HtJJB9U0"
+        },
+        {
+            "nome": "Ginger Friesen",
+            "email": "Madilyn_Auer@yahoo.com",
+            "password": "RvePRdGo5Gfkc1k",
+            "administrador": "true",
+            "_id": "1Kq8dKsbtmeU5mqm"
+        },
+        {
+            "nome": "Mrs. Isabel Weimann",
+            "email": "Jaeden96@gmail.com",
+            "password": "Nftcm1zobt0NTTE",
+            "administrador": "false",
+            "_id": "1W3jPmgzv9D5apzP"
+        },
+        {
+            "nome": "Eula Bosco",
+            "email": "Libby38@yahoo.com",
+            "password": "Vb_v6i0Jh3bgD8k",
+            "administrador": "true",
+            "_id": "1pW4Cx6e7p42jsUz"
+        },
+        {
+            "nome": "Ian Harris",
+            "email": "Keanu.McDermott14@yahoo.com",
+            "password": "JRIkVmuq0X23Gx5",
+            "administrador": "false",
+            "_id": "1u1RmtnTf6sDt6rU"
+        },
+        {
+            "nome": "Wanda Hansen I",
+            "email": "Ed.Dach@hotmail.com",
+            "password": "pRqmeZKzQ9kllbQ",
+            "administrador": "true",
+            "_id": "1u9WVIzillrA2yh2"
+        },
+        {
+            "nome": "Frank Morissette",
+            "email": "Irma_Jones46@hotmail.com",
+            "password": "xwVRZ7OCS4aTQJB",
+            "administrador": "true",
+            "_id": "2DqCzrxELcCucssu"
+        },
+        {
+            "nome": "Melody McCullough",
+            "email": "Zena_Collier@gmail.com",
+            "password": "4j9itTvktUnrcBX",
+            "administrador": "true",
+            "_id": "2Jd8qRaxm3WqvRr7"
+        },
+        {
+            "nome": "Sarah Gleason",
+            "email": "Chasity40@yahoo.com",
+            "password": "W34J8GrOXH1gg8N",
+            "administrador": "true",
+            "_id": "2R5ZBVMaCYkHgakN"
+        },
+        {
+            "nome": "Heather Turcotte",
+            "email": "Geraldine.Koch@hotmail.com",
+            "password": "bUpRYvGzelHwJXy",
+            "administrador": "true",
+            "_id": "2YDwPdUp754wgYK7"
+        },
+        {
+            "nome": "Randal Hintz",
+            "email": "Ariane_Wisoky93@gmail.com",
+            "password": "djqFpFQwGuYKbbn",
+            "administrador": "false",
+            "_id": "2b22D89C1hTqs9nj"
+        },
+        {
+            "nome": "Homer McKenzie",
+            "email": "Meredith30@yahoo.com",
+            "password": "7zJSS0QWvijZXIi",
+            "administrador": "true",
+            "_id": "2bV4cpfoMzvztigm"
+        },
+        {
+            "nome": "Marion Rice",
+            "email": "Assunta_Buckridge15@gmail.com",
+            "password": "kGQ6tH5D1UfQ8fZ",
+            "administrador": "false",
+            "_id": "2mpgcj27OtUleEYW"
+        },
+        {
+            "nome": "Leland Fahey",
+            "email": "Beau.Zemlak67@hotmail.com",
+            "password": "ejJp_Ve6FOoB8w6",
+            "administrador": "true",
+            "_id": "2xhn1EcXtnbZtb1p"
+        },
+        {
+            "nome": "Jody Schumm",
+            "email": "Leopoldo.Fay4@gmail.com",
+            "password": "DIJ_0vnbkpzHxPk",
+            "administrador": "true",
+            "_id": "30HMksgDQuH03KL8"
+        },
+        {
+            "nome": "Melanie Williamson",
+            "email": "Leilani.Crona@gmail.com",
+            "password": "8dCklaOhwXFGDQM",
+            "administrador": "true",
+            "_id": "35TqbeZPSBWhe2Ex"
+        },
+        {
+            "nome": "Leila",
+            "email": "leila@teste.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "3AODNVmwxLMsJYoh"
+        },
+        {
+            "nome": "Sonya McKenzie DVM",
+            "email": "Arch.Heller@gmail.com",
+            "password": "4_Dm1AqLrhom4w4",
+            "administrador": "false",
+            "_id": "3Epm81eKVNK9ZUbN"
+        },
+        {
+            "nome": "Marlin Welch",
+            "email": "tanya.muller@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "3NtqMKWqZEUXeRfP"
+        },
+        {
+            "nome": "Megan Thiel",
+            "email": "Dee_Wuckert@gmail.com",
+            "password": "pet9THT8bAP0V2D",
+            "administrador": "false",
+            "_id": "3OA5c0FXu3lU5QFN"
+        },
+        {
+            "nome": "Dr. Tyler Jacobs",
+            "email": "Agustin_Gleichner@hotmail.com",
+            "password": "Ac7Udub6GHtfXEt",
+            "administrador": "false",
+            "_id": "3iMvNEgy2MsJHn2y"
+        },
+        {
+            "nome": "Vera Runolfsson",
+            "email": "Jaiden.Lowe12@gmail.com",
+            "password": "U13w_iwxyjeXSsX",
+            "administrador": "true",
+            "_id": "4FLSEMvDYsC8W6Vg"
+        },
+        {
+            "nome": "Pedro Cummings",
+            "email": "Broderick_Bartell31@hotmail.com",
+            "password": "8hTHteMt42oxjjB",
+            "administrador": "false",
+            "_id": "4IzbzO8FRBE6qKpd"
+        },
+        {
+            "nome": "Lee Barton-Runte",
+            "email": "Francisco19@hotmail.com",
+            "password": "mEgbskCbx6hFAwP",
+            "administrador": "true",
+            "_id": "4V0yMhBAJ7940ktw"
+        },
+        {
+            "nome": "Dr. Kate Huel",
+            "email": "Gabe_White@gmail.com",
+            "password": "r1LKzy76jmFB4hT",
+            "administrador": "true",
+            "_id": "4e0Tzw1KNzydaOGf"
+        },
+        {
+            "nome": "Leonardo",
+            "email": "l@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "4g46lrADWHriR03R"
+        },
+        {
+            "nome": "Cameron Gleason",
+            "email": "Icie20@hotmail.com",
+            "password": "V2rRWD0on6cgqy9",
+            "administrador": "false",
+            "_id": "4yDtMxIDnn6lsqrV"
+        },
+        {
+            "nome": "Lucas Emanoel",
+            "email": "shawn07@example.org",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "511uWVEHnhgqmOrc"
+        },
+        {
+            "nome": "Ramiro Kirlin DDS",
+            "email": "Willie.Boyle@gmail.com",
+            "password": "1zqL9S655HcjaIV",
+            "administrador": "false",
+            "_id": "52XzCtRpCGzyGY2c"
+        },
+        {
+            "nome": "Cameron Treutel I",
+            "email": "Emily14@yahoo.com",
+            "password": "DkHfu_A8wocpIZv",
+            "administrador": "false",
+            "_id": "54AJK7xO1Pm8klzv"
+        },
+        {
+            "nome": "Beatrice Macejkovic",
+            "email": "Emie_Ward@hotmail.com",
+            "password": "ViFtBDrd52xwvT3",
+            "administrador": "false",
+            "_id": "5Nt3oC4mdLbV0RGK"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "jxtr@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "5edx8nNPcxvgqnWi"
+        },
+        {
+            "nome": "Josefina Grady",
+            "email": "Kevon.Buckridge@gmail.com",
+            "password": "7G_ZdQJ8AilefQx",
+            "administrador": "false",
+            "_id": "64a1pjvaJU4yw812"
+        },
+        {
+            "nome": "Cristina Kilback II",
+            "email": "Flavie91@hotmail.com",
+            "password": "99q0LBGnqEK4QUt",
+            "administrador": "false",
+            "_id": "66q8OsIT9sz0E0fS"
+        },
+        {
+            "nome": "Cheryl Prosacco",
+            "email": "Victoria_Bahringer@gmail.com",
+            "password": "WGkf6Xd3giAC7t7",
+            "administrador": "true",
+            "_id": "6DUiqwpCjOfEI1MK"
+        },
+        {
+            "nome": "Kenneth Turner",
+            "email": "Reese11@hotmail.com",
+            "password": "9ep4RFy0ZfYvZ3O",
+            "administrador": "true",
+            "_id": "6QCdvZgj2GgGQOGJ"
+        },
+        {
+            "nome": "Earl Bayer",
+            "email": "Johnathon93@yahoo.com",
+            "password": "yIMaR0uwgNkcMLb",
+            "administrador": "true",
+            "_id": "6SWj4kzK3vuo65Ha"
+        },
+        {
+            "nome": "Mayara Fernandes",
+            "email": "jon18@example.net",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "6eIX93OIZkoiHEdA"
+        },
+        {
+            "nome": "Amos Ankunding III",
+            "email": "Jackie20@hotmail.com",
+            "password": "QjQgamxUcyWdIwF",
+            "administrad... (set the log level to DEBUG or TRACE to see the full content) 
+ </msg>
+<msg time="2024-06-12T19:44:30.394293" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<var>${response}</var>
+<arg>https://serverest.dev/usuarios</arg>
+<doc>Sends a GET request.</doc>
+<status status="PASS" start="2024-06-12T19:44:29.471201" elapsed="0.923092"/>
+</kw>
+<kw name="Should Be Equal As Strings" owner="BuiltIn">
+<msg time="2024-06-12T19:44:30.396303" level="INFO">Argument types are:
+&lt;class 'requests.models.Response'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${response}</arg>
+<arg>&lt;Response [200]&gt;</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" start="2024-06-12T19:44:30.396303" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-06-12T19:44:29.471201" elapsed="0.925102"/>
+</test>
+<status status="PASS" start="2024-06-12T19:44:28.701372" elapsed="1.694931"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Api Loja">Api Loja</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

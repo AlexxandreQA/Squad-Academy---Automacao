@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.2 (Python 3.14.5 on win32)" generated="2026-06-05T08:41:28.218915" rpa="false" schemaversion="5">
+<robot generator="Robot 7.4.2 (Python 3.14.5 on win32)" generated="2026-06-05T08:50:54.551002" rpa="false" schemaversion="5">
 <suite id="s1" name="Api Loja" source="C:\Projetos\Squad-Academy---Automacao\tests_api\api_loja.robot">
 <test id="s1-t1" name="Acesso a API" line="5">
 <kw name="GET" owner="RequestsLibrary">
-<msg time="2026-06-05T08:41:29.208212" level="INFO">GET Request : url=https://serverest.dev/usuarios 
+<msg time="2026-06-05T08:50:55.394129" level="INFO">GET Request : url=https://serverest.dev/usuarios 
  path_url=/usuarios 
  headers={'User-Agent': 'python-requests/2.34.2', 'Accept-Encoding': 'gzip, deflate, zstd', 'Accept': '*/*', 'Connection': 'keep-alive'} 
  body=None 
  </msg>
-<msg time="2026-06-05T08:41:29.208347" level="INFO">GET Response : url=https://serverest.dev/usuarios 
+<msg time="2026-06-05T08:50:55.394389" level="INFO">GET Response : url=https://serverest.dev/usuarios 
  status=200, reason=OK 
- headers={'access-control-allow-origin': '*', 'x-dns-prefetch-control': 'off', 'x-frame-options': 'SAMEORIGIN', 'strict-transport-security': 'max-age=15552000; includeSubDomains', 'x-download-options': 'noopen', 'x-content-type-options': 'nosniff', 'x-xss-protection': '1; mode=block', 'content-type': 'application/json; charset=utf-8', 'x-cloud-trace-context': '02b1b94c0a1c4c0d52114b470fcd6738;o=1', 'date': 'Fri, 05 Jun 2026 11:41:29 GMT', 'server': 'Google Frontend', 'Content-Length': '253'} 
+ headers={'access-control-allow-origin': '*', 'x-dns-prefetch-control': 'off', 'x-frame-options': 'SAMEORIGIN', 'strict-transport-security': 'max-age=15552000; includeSubDomains', 'x-download-options': 'noopen', 'x-content-type-options': 'nosniff', 'x-xss-protection': '1; mode=block', 'content-type': 'application/json; charset=utf-8', 'x-cloud-trace-context': '502daf07df1d8b42365fe118ef5d3099;o=1', 'date': 'Fri, 05 Jun 2026 11:50:55 GMT', 'server': 'Google Frontend', 'Content-Length': '470'} 
  body={
-    "quantidade": 1,
+    "quantidade": 2,
     "usuarios": [
         {
             "nome": "Fulano da Silva",
@@ -20,31 +20,38 @@
             "password": "teste",
             "administrador": "true",
             "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Geovane Teste 3",
+            "email": "geovane-teste3@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "b5T4XilKJb2TlDDA"
         }
     ]
 } 
  </msg>
-<msg time="2026-06-05T08:41:29.208412" level="INFO">C:\Users\fenix\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'serverest.dev'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+<msg time="2026-06-05T08:50:55.394526" level="INFO">C:\Users\fenix\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'serverest.dev'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
   warnings.warn(</msg>
-<msg time="2026-06-05T08:41:29.208662" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<msg time="2026-06-05T08:50:55.397657" level="INFO">${response} = &lt;Response [200]&gt;</msg>
 <var>${response}</var>
 <arg>https://serverest.dev/usuarios</arg>
 <arg>verify=${FALSE}</arg>
 <doc>Sends a GET request.</doc>
-<status status="PASS" start="2026-06-05T08:41:28.461726" elapsed="0.746978"/>
+<status status="PASS" start="2026-06-05T08:50:54.906700" elapsed="0.491035"/>
 </kw>
 <kw name="Should Be Equal As Strings" owner="BuiltIn">
-<msg time="2026-06-05T08:41:29.209735" level="INFO">Argument types are:
+<msg time="2026-06-05T08:50:55.400034" level="INFO">Argument types are:
 &lt;class 'requests.models.Response'&gt;
 &lt;class 'str'&gt;</msg>
 <arg>${response}</arg>
 <arg>&lt;Response [200]&gt;</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<status status="PASS" start="2026-06-05T08:41:29.209232" elapsed="0.000601"/>
+<status status="PASS" start="2026-06-05T08:50:55.399332" elapsed="0.000835"/>
 </kw>
-<status status="PASS" start="2026-06-05T08:41:28.460863" elapsed="0.749245"/>
+<status status="PASS" start="2026-06-05T08:50:54.905759" elapsed="0.495079"/>
 </test>
-<status status="PASS" start="2026-06-05T08:41:28.221164" elapsed="0.989635"/>
+<status status="PASS" start="2026-06-05T08:50:54.554035" elapsed="0.849197"/>
 </suite>
 <statistics>
 <total>
