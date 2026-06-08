@@ -5,7 +5,8 @@ Library  SeleniumLibrary
 
 Valida login
     # Abre o Chrome
-    Open Browser    https://www.saucedemo.com/    Chrome
+    Open Browser    https://www.saucedemo.com/    headlesschrome
+    Maximize Browser Window
 
     # Adiciona o logine e a senha e clica no botao Login
     Input Text      //input[@id="user-name"]      standard_user 
